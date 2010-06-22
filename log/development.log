@@ -1975,3 +1975,333 @@ ActionView::MissingTemplate (Missing template index/linki.erb in view path app/v
   C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
 
 Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#ksiegagosci (for 127.0.0.1 at 2010-06-22 20:44:27) [GET]
+
+ActionView::MissingTemplate (Missing template index/ksiegagosci.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#linki (for 127.0.0.1 at 2010-06-22 20:46:29) [GET]
+Rendering template within layouts/index
+Rendering index/linki
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/index/linki]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#biografia (for 127.0.0.1 at 2010-06-22 20:48:23) [GET]
+Rendering template within layouts/index
+Rendering index/biografia
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/index/biografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#images to jpg (for 127.0.0.1 at 2010-06-22 20:48:24) [GET]
+  Parameters: {"id"=>"bio"}
+
+ActionController::UnknownAction (No action responded to images. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#biografia (for 127.0.0.1 at 2010-06-22 20:48:48) [GET]
+Rendering template within layouts/index
+Rendering index/biografia
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/biografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#sklad (for 127.0.0.1 at 2010-06-22 20:50:39) [GET]
+Rendering template within layouts/index
+Rendering index/sklad
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/index/sklad]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:50:40) [GET]
+  Parameters: {"id"=>"mapa"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:50:40) [GET]
+  Parameters: {"id"=>"josh"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:50:40) [GET]
+  Parameters: {"id"=>"corey"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:50:40) [GET]
+  Parameters: {"id"=>"jim"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:50:41) [GET]
+  Parameters: {"id"=>"econ"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:50:41) [GET]
+  Parameters: {"id"=>"roy"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#sklad (for 127.0.0.1 at 2010-06-22 20:51:08) [GET]
+Rendering template within layouts/index
+Rendering index/sklad
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/index/sklad]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:51:09) [GET]
+  Parameters: {"id"=>"josh"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:51:09) [GET]
+  Parameters: {"id"=>"corey"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:51:09) [GET]
+  Parameters: {"id"=>"jim"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:51:09) [GET]
+  Parameters: {"id"=>"roy"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#img to jpg (for 127.0.0.1 at 2010-06-22 20:51:09) [GET]
+  Parameters: {"id"=>"econ"}
+
+ActionController::UnknownAction (No action responded to img. Actions: biografia, desmoines, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#sklad (for 127.0.0.1 at 2010-06-22 20:51:48) [GET]
+Rendering template within layouts/index
+Rendering index/sklad
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/index/sklad]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dyskografia (for 127.0.0.1 at 2010-06-22 20:53:56) [GET]
+Rendering template within layouts/index
+Rendering index/dyskografia
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/index/dyskografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dyskografia (for 127.0.0.1 at 2010-06-22 20:55:08) [GET]
+Rendering template within layouts/index
+Rendering index/dyskografia
+Completed in 250ms (View: 250, DB: 0) | 200 OK [http://localhost/index/dyskografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dyskografia (for 127.0.0.1 at 2010-06-22 20:57:36) [GET]
+Rendering template within layouts/index
+Rendering index/dyskografia
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/dyskografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:57:39) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dyskografia (for 127.0.0.1 at 2010-06-22 20:57:40) [GET]
+Rendering template within layouts/index
+Rendering index/dyskografia
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/dyskografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#biografia (for 127.0.0.1 at 2010-06-22 20:57:42) [GET]
+Rendering template within layouts/index
+Rendering index/biografia
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/biografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#linki (for 127.0.0.1 at 2010-06-22 20:57:45) [GET]
+Rendering template within layouts/index
+Rendering index/linki
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/linki]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#desmoines (for 127.0.0.1 at 2010-06-22 20:57:47) [GET]
+Rendering template within layouts/index
+Rendering index/desmoines
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/index/desmoines]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#sklad (for 127.0.0.1 at 2010-06-22 20:58:28) [GET]
+Rendering template within layouts/index
+Rendering index/sklad
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/sklad]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:58:30) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#ksiegagosci (for 127.0.0.1 at 2010-06-22 20:58:36) [GET]
+
+ActionView::MissingTemplate (Missing template index/ksiegagosci.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 21:01:57) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/index/news]
