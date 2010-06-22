@@ -1,0 +1,35 @@
+body{ background-image:url('/images/tlo.gif');
+       font-family:'Arial';
+       line-height:100%;
+       color:white;
+    }
+    
+table{ border:none; 
+       vertical-align:top;
+       background-color:black;
+	 }
+td{ border-color:white;
+    border:double;
+    text-align:left;
+    vertical-align:top;
+  }  
+
+	 
+a{ color:white;
+   font-family:Verdana;
+   font-weight:700;
+   text-decoration:none;
+   }
+   
+a:hover{ color:gray;}
+
+li{list-style-type:circle;}
+
+p{margin:10px;}
+
+img{border:0;}
+
+h3{margin-left:10px;
+   margin-top:10px;}
+form{margin:10px;}
+   

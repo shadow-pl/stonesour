@@ -1,0 +1,1977 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 18:58:20) [GET]
+
+ActionController::RoutingError (No route matches "/index/javascripts/prototype.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 18:58:20) [GET]
+
+ActionController::RoutingError (No route matches "/index/javascripts/effects.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 18:58:20) [GET]
+
+ActionController::RoutingError (No route matches "/index/images/rails.png" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 18:59:33) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:02:00) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:09:24) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:09:25) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:10:38) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 188ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:10:38) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:11:32) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:11:32) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (625.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:12:08) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:12:08) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (1062.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:12:12) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:12:12) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (562.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:13:46) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:13:46) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:13:47) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:13:47) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (437.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:13:49) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:13:49) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (3500.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:15:02) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:15:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/img/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:15:02) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:16:12) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:16:12) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:16:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/img/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:16:13) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:16:13) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:16:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/img/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:16:17) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:16:17) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:16:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/img/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:18:11) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:18:11) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:18:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/img/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:19:48) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:19:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:19:48) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:19:49) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:19:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:19:50) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:19:51) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:19:51) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:19:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:22:42) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:22:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:22:42) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:22:43) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:22:43) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:22:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tlo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:23:33) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:23:33) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:24:48) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:24:48) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:24:51) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:24:51) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:28:47) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:28:48) [GET]
+
+ActionController::RoutingError (No route matches "/stonesour/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:28:49) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:28:50) [GET]
+
+ActionController::RoutingError (No route matches "/stonesour/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:29:27) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:29:28) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:29:29) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:29:29) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:30:05) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:30:05) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:30:06) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:30:06) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:30:40) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:30:40) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:30:41) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:30:41) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:30:43) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:30:43) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:32:15) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 859ms (View: 828, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:32:16) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:32:18) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:32:18) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:35:13) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:13) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:35:14) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:15) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:35:16) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:16) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:36) [GET]
+
+ActionController::RoutingError (No route matches "/linki.html" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:43) [GET]
+
+ActionController::RoutingError (No route matches "/ksiegagosci.php" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:46) [GET]
+
+ActionController::RoutingError (No route matches "/desmoines.html" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:48) [GET]
+
+ActionController::RoutingError (No route matches "/sklad.html" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:51) [GET]
+
+ActionController::RoutingError (No route matches "/biografia.html" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:35:54) [GET]
+
+ActionController::RoutingError (No route matches "/index.php" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:36:18) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:36:18) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/logo.gif" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:39:07) [GET]
+
+NameError (uninitialized constant IndexController::Magick):
+  app/controllers/index_controller.rb:2:in `<class:IndexController>'
+  app/controllers/index_controller.rb:1:in `<top (required)>'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (1640.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:39:37) [GET]
+
+NameError (undefined local variable or method `index' for IndexController:Class):
+  app/controllers/index_controller.rb:2:in `<class:IndexController>'
+  app/controllers/index_controller.rb:1:in `<top (required)>'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (218.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:39:39) [GET]
+
+NameError (undefined local variable or method `index' for IndexController:Class):
+  app/controllers/index_controller.rb:2:in `<class:IndexController>'
+  app/controllers/index_controller.rb:1:in `<top (required)>'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (218.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:40:21) [GET]
+
+NameError (uninitialized constant IndexController::Magick):
+  app/controllers/index_controller.rb:2:in `<class:IndexController>'
+  app/controllers/index_controller.rb:1:in `<top (required)>'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (625.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:42:52) [GET]
+
+NameError (uninitialized constant IndexController::Index):
+  app/controllers/index_controller.rb:2:in `<class:IndexController>'
+  app/controllers/index_controller.rb:1:in `<top (required)>'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (281.2ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:42:54) [GET]
+
+NameError (uninitialized constant IndexController::Index):
+  app/controllers/index_controller.rb:2:in `<class:IndexController>'
+  app/controllers/index_controller.rb:1:in `<top (required)>'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (187.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:44:24) [GET]
+Rendering template within layouts/index
+Rendering index/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:44:45) [GET]
+
+ActionController::RoutingError (No route matches "/index.html.erb" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:48:42) [GET]
+
+NameError (uninitialized constant NewsController):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (1578.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:49:07) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:49:56) [GET]
+Redirected to http://localhost:3000/index/news
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 19:49:57) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:50:05) [GET]
+
+ActionController::RoutingError (No route matches "/news" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 19:50:08) [GET]
+
+ActionController::RoutingError (No route matches "/news" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 19:50:14) [GET]
+Redirected to http://localhost:3000/index/news
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/index/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 19:50:14) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 19:51:01) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 19:57:39) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 19:59:54) [GET]
+Rendering template within layouts/index
+Rendering index/news
+ERROR: compiling _run_erb_app47views47layouts47index46html46erb RAISED C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:18: syntax error, unexpected '<'
+        <li><a href="dyskografia.html.erb">DYSKOGRAFIA</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:19: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:20: syntax error, unexpected '<'
+        <li><a href="sklad.html.erb">SKLAD</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:21: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:22: syntax error, unexpected '<'
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:22: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+                                                       ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:23: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:24: syntax error, unexpected '<'
+        </ul><br>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...rg/css-validator/check/referer">
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <img src="http://jigsaw.w3.org/css-validato...
+                            ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: unknown regexp options - jgaw
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+....org/css-validator/images/vcss" alt="Poprawny CSS!"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tCONSTANT, expecting ')'
+...ator/images/vcss" alt="Poprawny CSS!"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <a target="_blank" href="http://validator.w3.o...
+                             ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+...  <a target="_blank" href="http://validator.w3.org/check?uri...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: unknown regexp options - valdatr
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...tp://validator.w3.org/check?uri=referer">
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <img src="http://www.w3.org/Icons/valid-htm...
+                          ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: unknown regexp options - www
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+.../www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0 Transiti...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tCONSTANT, expecting ')'
+.../Icons/valid-html40" alt="Valid HTML 4.0 Transitional" heigh...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tCONSTANT, expecting ')'
+...lt="Valid HTML 4.0 Transitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tINTEGER, expecting ')'
+...ML 4.0 Transitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tINTEGER, expecting ')'
+...sitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:34: syntax error, unexpected tINTEGER, expecting ')'
+      <td width="740">
+                    ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined, expecting ')'
+...to_s); @output_buffer.concat "\n      </td>\n    </tr>\n    ...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: unknown regexp options - tr
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined
+...ncat "\n      </td>\n    </tr>\n    <tr>\n      <td colspan=...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined
+...    </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\" heig...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...r>\n    <tr>\n      <td colspan=\"2\" height=\"10\">Copyrigh...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:47: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _run_erb_app47views47layouts47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<title>Stone Sour "
+
+
+; @output_buffer.concat(( controller.action_name ).to_s); @output_buffer.concat "</title>\n  "
+; @output_buffer.concat(( stylesheet_link_tag 'style' ).to_s); @output_buffer.concat "\n</head>\n<body>\n  <center>\n  <table width=\"940\">\n    <tr>\n      <td colspan=\"2\" height=\"168\"><img src=\"/images/logo.gif\" alt=\"logo zespolu Stone Sour\"></td>\n    </tr>\n    <tr>\n      <td width=\"200\">\n        <h3>MENU:</h3>\n        <ul>\n        <li>"
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to 'NEWSY', :action => "news">
+        <li><a href="dyskografia.html.erb">DYSKOGRAFIA</a>
+        <li><a href="biografia.html.erb">BIOGRAFIA</a>
+        <li><a href="sklad.html.erb">SKLAD</a>
+        <li><a href="desmoines.html.erb">DES MOINES</a>
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+        <li><a href="linki.html.erb">LINKI</a>
+        </ul><br>
+        <p>
+            <a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Poprawny CSS!"></a>
+        </p>
+        <p>
+            <a target="_blank" href="http://validator.w3.org/check?uri=referer">
+            <img src="http://www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0 Transitional" height="31" width="88"></a>
+          </p>
+      </td>
+      <td width="740">
+      <%= yield ).to_s); @output_buffer.concat "\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\" height=\"10\">Copyright by Marek Stawowy - zalicznienie przedmiotu Hipertekst i Hipermedia 2009/2010.</td>\n    </tr>\n  </table>\n  </center>\n</body>\n</html>"
+
+
+
+
+
+
+
+
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:18: syntax error, unexpected '<'
+        <li><a href="dyskografia.html.erb">DYSKOGRAFIA</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:19: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:20: syntax error, unexpected '<'
+        <li><a href="sklad.html.erb">SKLAD</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:21: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:22: syntax error, unexpected '<'
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:22: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+                                                       ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:23: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:24: syntax error, unexpected '<'
+        </ul><br>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...rg/css-validator/check/referer">
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <img src="http://jigsaw.w3.org/css-validato...
+                            ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: unknown regexp options - jgaw
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+....org/css-validator/images/vcss" alt="Poprawny CSS!"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tCONSTANT, expecting ')'
+...ator/images/vcss" alt="Poprawny CSS!"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <a target="_blank" href="http://validator.w3.o...
+                             ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+...  <a target="_blank" href="http://validator.w3.org/check?uri...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: unknown regexp options - valdatr
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...tp://validator.w3.org/check?uri=referer">
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <img src="http://www.w3.org/Icons/valid-htm...
+                          ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: unknown regexp options - www
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+.../www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0 Transiti...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tCONSTANT, expecting ')'
+.../Icons/valid-html40" alt="Valid HTML 4.0 Transitional" heigh...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tCONSTANT, expecting ')'
+...lt="Valid HTML 4.0 Transitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tINTEGER, expecting ')'
+...ML 4.0 Transitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tINTEGER, expecting ')'
+...sitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:34: syntax error, unexpected tINTEGER, expecting ')'
+      <td width="740">
+                    ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined, expecting ')'
+...to_s); @output_buffer.concat "\n      </td>\n    </tr>\n    ...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: unknown regexp options - tr
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined
+...ncat "\n      </td>\n    </tr>\n    <tr>\n      <td colspan=...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined
+...    </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\" heig...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...r>\n    <tr>\n      <td colspan=\"2\" height=\"10\">Copyrigh...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:47: syntax error, unexpected keyword_end, expecting ')') on line #18 of app/views/layouts/index.html.erb:
+15:         <h3>MENU:</h3>
+16:         <ul>
+17:         <li><%= link_to 'NEWSY', :action => "news">
+18:         <li><a href="dyskografia.html.erb">DYSKOGRAFIA</a>
+19:         <li><a href="biografia.html.erb">BIOGRAFIA</a>
+20:         <li><a href="sklad.html.erb">SKLAD</a>
+21:         <li><a href="desmoines.html.erb">DES MOINES</a>
+
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (625.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 20:00:09) [GET]
+
+ActionController::RoutingError (No route matches "/news" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 20:00:10) [GET]
+
+ActionController::RoutingError (No route matches "/news" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 20:00:12) [GET]
+Redirected to http://localhost:3000/index/news
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:00:12) [GET]
+Rendering template within layouts/index
+Rendering index/news
+ERROR: compiling _run_erb_app47views47layouts47index46html46erb RAISED C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:18: syntax error, unexpected '<'
+        <li><a href="dyskografia.html.erb">DYSKOGRAFIA</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:19: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:20: syntax error, unexpected '<'
+        <li><a href="sklad.html.erb">SKLAD</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:21: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:22: syntax error, unexpected '<'
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:22: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+                                                       ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:23: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:24: syntax error, unexpected '<'
+        </ul><br>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...rg/css-validator/check/referer">
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <img src="http://jigsaw.w3.org/css-validato...
+                            ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: unknown regexp options - jgaw
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+....org/css-validator/images/vcss" alt="Poprawny CSS!"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tCONSTANT, expecting ')'
+...ator/images/vcss" alt="Poprawny CSS!"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <a target="_blank" href="http://validator.w3.o...
+                             ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+...  <a target="_blank" href="http://validator.w3.org/check?uri...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: unknown regexp options - valdatr
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...tp://validator.w3.org/check?uri=referer">
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <img src="http://www.w3.org/Icons/valid-htm...
+                          ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: unknown regexp options - www
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+.../www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0 Transiti...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tCONSTANT, expecting ')'
+.../Icons/valid-html40" alt="Valid HTML 4.0 Transitional" heigh...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tCONSTANT, expecting ')'
+...lt="Valid HTML 4.0 Transitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tINTEGER, expecting ')'
+...ML 4.0 Transitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tINTEGER, expecting ')'
+...sitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:34: syntax error, unexpected tINTEGER, expecting ')'
+      <td width="740">
+                    ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined, expecting ')'
+...to_s); @output_buffer.concat "\n      </td>\n    </tr>\n    ...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: unknown regexp options - tr
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined
+...ncat "\n      </td>\n    </tr>\n    <tr>\n      <td colspan=...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined
+...    </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\" heig...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...r>\n    <tr>\n      <td colspan=\"2\" height=\"10\">Copyrigh...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:47: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _run_erb_app47views47layouts47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<title>Stone Sour "
+
+
+; @output_buffer.concat(( controller.action_name ).to_s); @output_buffer.concat "</title>\n  "
+; @output_buffer.concat(( stylesheet_link_tag 'style' ).to_s); @output_buffer.concat "\n</head>\n<body>\n  <center>\n  <table width=\"940\">\n    <tr>\n      <td colspan=\"2\" height=\"168\"><img src=\"/images/logo.gif\" alt=\"logo zespolu Stone Sour\"></td>\n    </tr>\n    <tr>\n      <td width=\"200\">\n        <h3>MENU:</h3>\n        <ul>\n        <li>"
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to 'NEWSY', :action => "news">
+        <li><a href="dyskografia.html.erb">DYSKOGRAFIA</a>
+        <li><a href="biografia.html.erb">BIOGRAFIA</a>
+        <li><a href="sklad.html.erb">SKLAD</a>
+        <li><a href="desmoines.html.erb">DES MOINES</a>
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+        <li><a href="linki.html.erb">LINKI</a>
+        </ul><br>
+        <p>
+            <a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Poprawny CSS!"></a>
+        </p>
+        <p>
+            <a target="_blank" href="http://validator.w3.org/check?uri=referer">
+            <img src="http://www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0 Transitional" height="31" width="88"></a>
+          </p>
+      </td>
+      <td width="740">
+      <%= yield ).to_s); @output_buffer.concat "\n      </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\" height=\"10\">Copyright by Marek Stawowy - zalicznienie przedmiotu Hipertekst i Hipermedia 2009/2010.</td>\n    </tr>\n  </table>\n  </center>\n</body>\n</html>"
+
+
+
+
+
+
+
+
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:18: syntax error, unexpected '<'
+        <li><a href="dyskografia.html.erb">DYSKOGRAFIA</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:19: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:20: syntax error, unexpected '<'
+        <li><a href="sklad.html.erb">SKLAD</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:21: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:22: syntax error, unexpected '<'
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:22: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+        <li><a href="ksiegagosci.html.erb">KSIEGA GOSCI</a>
+                                                       ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:23: unknown regexp option - a
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:24: syntax error, unexpected '<'
+        </ul><br>
+         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...rg/css-validator/check/referer">
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+              <img src="http://jigsaw.w3.org/css-validato...
+                            ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: unknown regexp options - jgaw
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+....org/css-validator/images/vcss" alt="Poprawny CSS!"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:27: syntax error, unexpected tCONSTANT, expecting ')'
+...ator/images/vcss" alt="Poprawny CSS!"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <a target="_blank" href="http://validator.w3.o...
+                             ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+...  <a target="_blank" href="http://validator.w3.org/check?uri...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: unknown regexp options - valdatr
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...tp://validator.w3.org/check?uri=referer">
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <img src="http://www.w3.org/Icons/valid-htm...
+                          ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: unknown regexp options - www
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+.../www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0 Transiti...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tCONSTANT, expecting ')'
+.../Icons/valid-html40" alt="Valid HTML 4.0 Transitional" heigh...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tCONSTANT, expecting ')'
+...lt="Valid HTML 4.0 Transitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tINTEGER, expecting ')'
+...ML 4.0 Transitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:31: syntax error, unexpected tINTEGER, expecting ')'
+...sitional" height="31" width="88"></a>
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:34: syntax error, unexpected tINTEGER, expecting ')'
+      <td width="740">
+                    ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined, expecting ')'
+...to_s); @output_buffer.concat "\n      </td>\n    </tr>\n    ...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: unknown regexp options - tr
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined
+...ncat "\n      </td>\n    </tr>\n    <tr>\n      <td colspan=...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected $undefined
+...    </td>\n    </tr>\n    <tr>\n      <td colspan=\"2\" heig...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...r>\n    <tr>\n      <td colspan=\"2\" height=\"10\">Copyrigh...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/layouts/index.html.erb:47: syntax error, unexpected keyword_end, expecting ')') on line #18 of app/views/layouts/index.html.erb:
+15:         <h3>MENU:</h3>
+16:         <ul>
+17:         <li><%= link_to 'NEWSY', :action => "news">
+18:         <li><a href="dyskografia.html.erb">DYSKOGRAFIA</a>
+19:         <li><a href="biografia.html.erb">BIOGRAFIA</a>
+20:         <li><a href="sklad.html.erb">SKLAD</a>
+21:         <li><a href="desmoines.html.erb">DES MOINES</a>
+
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (171.9ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-22 20:00:52) [GET]
+Redirected to http://localhost:3000/index/news
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:00:52) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:00:55) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 20:00:56) [GET]
+
+ActionController::RoutingError (No route matches "/index/dyskografia.html.erb" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:01:39) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dyskografia (for 127.0.0.1 at 2010-06-22 20:01:41) [GET]
+
+ActionView::MissingTemplate (Missing template index/dyskografia.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:04:07) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+
+
+Processing ApplicationController#news (for 127.0.0.1 at 2010-06-22 20:04:07) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:04:16) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 20:06:29) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 312ms (View: 297, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#linki (for 127.0.0.1 at 2010-06-22 20:06:32) [GET]
+
+ActionView::MissingTemplate (Missing template index/linki.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)

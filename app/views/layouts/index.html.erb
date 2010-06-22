@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Stone Sour <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'style' %>
+</head>
+<body>
+  <a name="gora"></a>
+  <center>
+  <table width="940">
+    <tr>
+      <td colspan="2" height="168"><img src="/images/logo.gif" alt="logo zespolu Stone Sour"></td>
+    </tr>
+    <tr>
+      <td width="200">
+        <h3>MENU:</h3>
+        <ul>
+        <li><%= link_to 'NEWSY', :action => "news" %>
+        <li><%= link_to 'DYSKOGRAFIA', :action => "dyskografia" %>
+        <li><%= link_to 'BIOGRAFIA', :action => "biografia" %>
+        <li><%= link_to 'SKLAD', :action => "sklad" %>
+        <li><%= link_to 'DES MOINES', :action => "desmoines" %>
+        <li><%= link_to 'KSIEGA GOSCI', :action => "ksiegagosci" %>
+        <li><%= link_to 'LINKI', :action => "linki" %>
+        </ul><br>
+        <p>
+            <a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Poprawny CSS!"></a>
+        </p>
+        <p>
+            <a target="_blank" href="http://validator.w3.org/check?uri=referer">
+            <img src="http://www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0 Transitional" height="31" width="88"></a>
+          </p>
+      </td>
+      <td width="740">
+      <%= yield %>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" height="10">Copyright by Marek Stawowy - zalicznienie przedmiotu Hipertekst i Hipermedia 2009/2010.</td>
+    </tr>
+  </table>
+  </center>
+</body>
+</html>
