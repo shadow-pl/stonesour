@@ -1,0 +1,19 @@
+<h3>KSIEGA GOSCI:</h3>
+<p><%= link_to "Dodaj wpis do ksiegi gosci", :action => "dodajwpis" %></p>
+<% @ksiega.reverse_each do |ksiega| %>
+<hr>
+<p>
+<b><%= ksiega.user %></b> <br />
+<% if ksiega.student=="1" %> 
+<%= "student" %> <br />
+<% end %>
+<%= ksiega.data %> <br />
+<b>tresc:</b><br />
+<%= ksiega.tresc %>
+</p>
+<% end %>
+<hr>
+<p>
+<a href="#gora">Do gory</a>
+</p>
+

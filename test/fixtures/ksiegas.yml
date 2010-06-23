@@ -4,8 +4,10 @@ one:
   user: MyString
   tresc: MyText
   data: 2010-06-23
+  student: 
 
 two:
   user: MyString
   tresc: MyText
   data: 2010-06-23
+  student: 

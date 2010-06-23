@@ -1,0 +1,26 @@
+  <% @ksiega.errors.each do |attr,msg| %>
+  <table>
+  <tr><td> 
+  <%=  "#{attr} - #{msg}" %>
+  </td></tr>
+  </table>
+  <% end %>
+
+<% form_for(@ksiega, :url => {:controller => :index, :action => :dodajwpis, :id => @ksiega}) do |f| %>
+  <div>
+  <%= f.label :user , "User/Nick:"%> <%= f.text_field :user %></div>
+  <div>
+  <%= f.label :student %>: <%=f.check_box :student, { :class => 'check' }, "1", "0" %></div>
+	<div>
+  <%= f.label :tresc, "Tresc:" %>
+  </div>
+	<div>
+  <%= f.text_area :tresc %>
+  </div>
+  <div>
+  <%= f.submit 'Dodaj'%>
+  </div>
+<% end %>
+<p>
+<%= link_to "Powrot", :action => "ksiegagosci" %>
+</p>
