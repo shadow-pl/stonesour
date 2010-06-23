@@ -1,0 +1,15 @@
+<h3>WSZYSTKIE NEWSY:</h3>
+<% @news.reverse_each do |news| %>
+<hr>
+<p>
+<b><%= news.tytul %></b> <br />
+<%= news.data %> <br />
+<b>tresc:</b><br />
+<%= news.tresc %>
+</p>
+<% end %>
+<hr>
+<p>
+<%= link_to "Dodaj news", :action => "dodajnews" %> | <a href="#gora">Do gory</a>
+</p>
+

@@ -1,3 +1,11 @@
+  <% @news.errors.each do |attr,msg| %>
+  <table>
+  <tr><td> 
+  <%=  "#{attr} - #{msg}" %>
+  </td></tr>
+  </table>
+  <% end %>
+
 <% form_for(@news, :url => {:controller => :index, :action => :dodajnews, :id => @news}) do |f| %>
   <div>
   <%= f.label :tytul %></div>

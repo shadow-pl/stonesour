@@ -5,6 +5,9 @@ class IndexController < ApplicationController
   def news
     @news = News.all
   end
+  def wszystkienewsy
+    @news = News.all
+  end
   def dodajnews
     @news = News.new(params[:news])
     if request.post?

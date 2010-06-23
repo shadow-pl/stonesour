@@ -1,15 +1,20 @@
 <h3>NEWS:</h3>
-<% @news.reverse_each do |news| %>
+<% n=@news.length %>
+<% i=0 %>
+<% while i<5 %>
 <hr>
+<% n=n-1 %>
+<% i=i+1 %>
 <p>
-<b><%= news.tytul %></b> <br />
-<%= news.data %> <br />
+<b><%= @news[n].tytul %></b> <br />
+<%= @news[n].data %> <br />
 <b>tresc:</b><br />
-<%= news.tresc %>
+<%= @news[n].tresc %>
 </p>
 <% end %>
+
 <hr>
 <p>
-<%= link_to "Dodaj news", :action => "dodajnews" %>
+<%= link_to "Dodaj news", :action => "dodajnews" %> | <%= link_to "Pokaz wszystkie", :action => "wszystkienewsy" %>
 </p>
 
