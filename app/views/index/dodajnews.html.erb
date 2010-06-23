@@ -1,0 +1,16 @@
+<% form_for(@news, :url => {:controller => :index, :action => :dodajnews, :id => @news}) do |f| %>
+  <div>
+  <%= f.label :tytul %></div>
+	<div>
+  <%= f.text_field :tytul %></div>
+	<div>
+  <%= f.label :tresc %></div>
+	<div>
+  <%= f.text_area :tresc %></div>
+  <div>
+  <%= f.submit 'Dodaj'%>
+  </div>
+<% end %>
+<p>
+<%= link_to "Powrot", :action => "news" %>
+</p>

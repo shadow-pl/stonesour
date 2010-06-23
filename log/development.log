@@ -2305,3 +2305,1991 @@ Processing IndexController#news (for 127.0.0.1 at 2010-06-22 21:01:57) [GET]
 Rendering template within layouts/index
 Rendering index/news
 Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dyskografia (for 127.0.0.1 at 2010-06-22 21:04:39) [GET]
+Rendering template within layouts/index
+Rendering index/dyskografia
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/index/dyskografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#biografia (for 127.0.0.1 at 2010-06-22 21:04:40) [GET]
+Rendering template within layouts/index
+Rendering index/biografia
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/index/biografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-22 21:04:44) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#ksiegagosci (for 127.0.0.1 at 2010-06-22 21:04:48) [GET]
+
+ActionView::MissingTemplate (Missing template index/ksiegagosci.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (156.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (109.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-23 09:28:23) [GET]
+Redirected to http://localhost:3000/index/news
+Completed in 0ms (DB: 266) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:28:23) [GET]
+Rendering template within layouts/index
+Rendering index/news
+Completed in 688ms (View: 641, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (93.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (46.9ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (46.9ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateNews (20100623073605)
+  [4;35;1mSQL (15.6ms)[0m   [0mCREATE TABLE `news` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `tytul` varchar(255), `tresc` text, `data` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100623073605')[0m
+Migrating to CreateKsiegas (20100623073657)
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE `ksiegas` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user` varchar(255), `tresc` text, `data` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100623073657')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (62.5ms)[0m   [0;1mSHOW FIELDS FROM `ksiegas`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `ksiegas`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `ksiegas`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `news`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSHOW KEYS FROM `news`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:40:03) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:40:05) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dyskografia (for 127.0.0.1 at 2010-06-23 09:40:07) [GET]
+Rendering template within layouts/index
+Rendering index/dyskografia
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/dyskografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#biografia (for 127.0.0.1 at 2010-06-23 09:40:08) [GET]
+Rendering template within layouts/index
+Rendering index/biografia
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/biografia]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#sklad (for 127.0.0.1 at 2010-06-23 09:40:09) [GET]
+Rendering template within layouts/index
+Rendering index/sklad
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/sklad]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#desmoines (for 127.0.0.1 at 2010-06-23 09:40:10) [GET]
+Rendering template within layouts/index
+Rendering index/desmoines
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/index/desmoines]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#ksiegagosci (for 127.0.0.1 at 2010-06-23 09:40:11) [GET]
+
+ActionView::MissingTemplate (Missing template index/ksiegagosci.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#linki (for 127.0.0.1 at 2010-06-23 09:40:31) [GET]
+Rendering template within layouts/index
+Rendering index/linki
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/linki]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:40:39) [GET]
+  [4;36;1mNews Load (15.6ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:47:04) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mNews Create (15.6ms)[0m   [0;1mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES('News z konsoli 1', 'Noo to jest zajebista tresc!', NULL, '2010-06-23 07:53:19', '2010-06-23 07:53:19')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:53:28) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 391ms (View: 375, DB: 0) | 200 OK [http://localhost/index/news]
+
+
+Processing ApplicationController#news (for 127.0.0.1 at 2010-06-23 09:53:29) [GET]
+
+ArgumentError (invalid byte sequence in UTF-8):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (1593.8ms)
+Rendered rescues/_request_and_response (46.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:53:46) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 438ms (View: 406, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:54:25) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:55:05) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 78ms (View: 47, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:55:41) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (31.2ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 78ms (View: 16, DB: 31) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:56:00) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:56:17) [GET]
+  [4;36;1mNews Load (15.6ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 62ms (View: 16, DB: 31) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:58:10) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 09:59:48) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:00:01) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+ERROR: compiling _run_erb_app47views47index47news46html46erb RAISED C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:12: syntax error, unexpected ':', expecting keyword_end
+;  link to "Dodaj news" :action => "dodajnews" ; @outp...
+                         ^
+Function body:           def _run_erb_app47views47index47news46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h3>NEWS:</h3>\n"
+;  for news in @news ; @output_buffer.concat "\n<hr>\n<p>\n<b>"
+
+
+; @output_buffer.concat(( news.tytul ).to_s); @output_buffer.concat "</b> <br />\n"
+; @output_buffer.concat(( news.data ).to_s); @output_buffer.concat " <br />\n<b>tresc:</b><br />\n"
+
+; @output_buffer.concat(( news.tresc ).to_s); @output_buffer.concat "\n</p>\n"
+
+;  end ; @output_buffer.concat "\n<p>\n"
+
+;  link to "Dodaj news" :action => "dodajnews" ; @output_buffer.concat "\n\n"
+
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:12: syntax error, unexpected ':', expecting keyword_end
+;  link to "Dodaj news" :action => "dodajnews" ; @outp...
+                         ^) on line #12 of app/views/index/news.html.erb:
+9: </p>
+10: <% end %>
+11: <p>
+12: <% link to "Dodaj news" :action => "dodajnews" %>
+
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (1234.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:00:04) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+ERROR: compiling _run_erb_app47views47index47news46html46erb RAISED C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:12: syntax error, unexpected ':', expecting keyword_end
+;  link to "Dodaj news" :action => "dodajnews" ; @outp...
+                         ^
+Function body:           def _run_erb_app47views47index47news46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h3>NEWS:</h3>\n"
+;  for news in @news ; @output_buffer.concat "\n<hr>\n<p>\n<b>"
+
+
+; @output_buffer.concat(( news.tytul ).to_s); @output_buffer.concat "</b> <br />\n"
+; @output_buffer.concat(( news.data ).to_s); @output_buffer.concat " <br />\n<b>tresc:</b><br />\n"
+
+; @output_buffer.concat(( news.tresc ).to_s); @output_buffer.concat "\n</p>\n"
+
+;  end ; @output_buffer.concat "\n<p>\n"
+
+;  link to "Dodaj news" :action => "dodajnews" ; @output_buffer.concat "\n\n"
+
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:12: syntax error, unexpected ':', expecting keyword_end
+;  link to "Dodaj news" :action => "dodajnews" ; @outp...
+                         ^) on line #12 of app/views/index/news.html.erb:
+9: </p>
+10: <% end %>
+11: <p>
+12: <% link to "Dodaj news" :action => "dodajnews" %>
+
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (640.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:00:18) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+
+ActionView::TemplateError (undefined method `to' for #<ActionView::Base:0x257e420>) on line #12 of app/views/index/news.html.erb:
+9: </p>
+10: <% end %>
+11: <p>
+12: <% link to "Dodaj news", :action => "dodajnews" %>
+
+    app/views/index/news.html.erb:12
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (390.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:00:29) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:00:51) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 47ms (View: 31, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:01:17) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (31.2ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 94ms (View: 47, DB: 31) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:01:19) [GET]
+  [4;36;1mNews Columns (31.2ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+
+ActionView::MissingTemplate (Missing template index/dodajnews.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:06:00) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 78ms (View: 62, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:06:01) [GET]
+  [4;35;1mNews Columns (31.2ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+
+ActionView::TemplateError (undefined method `tekst' for #<News:0x24bfb80>) on line #18 of app/views/index/dodajnews.html.erb:
+15: 	<div>
+16:   <%= f.label :tekst %></div>
+17: 	<div>
+18:   <%= f.text_field :tekst %></div>
+19: 	<div>
+20: <div>
+21: <%= f.submit 'Dodaj'%>
+
+    app/views/index/dodajnews.html.erb:18:in `block in _run_erb_app47views47index47dodajnews46html46erb'
+    app/views/index/dodajnews.html.erb:10
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (2281.2ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:06:37) [GET]
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:07:04) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"news z formularza", "tresc"=>"lalallalala"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:07:54) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"news z formularza", "tresc"=>"lalallalala"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:08:01) [GET]
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:08:06) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:08:17) [GET]
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:08:28) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"lalala", "tresc"=>"tresc"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:09:48) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"lalala", "tresc"=>"tresc"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:09:51) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"lalala", "tresc"=>"tresc"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:09:54) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 94ms (View: 62, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:09:55) [GET]
+  [4;35;1mNews Columns (31.2ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 500ms (View: 328, DB: 31) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:10:02) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/Dodaj" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:10:52) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/Dodaj" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:11:48) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/Dodaj" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:12:23) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/Dodaj" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:12:26) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/Dodaj" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:12:35) [GET]
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:12:37) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:14:08) [GET]
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:14:09) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:15:41) [GET]
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:16:12) [GET]
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+ERROR: compiling _run_erb_app47views47index47dodajnews46html46erb RAISED C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/dodajnews.html.erb:12: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.label :tytul: ).to_s); @output_buffer.conc...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/dodajnews.html.erb:16: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.label :tresc: ).to_s); @output_buffer.conc...
+...                               ^
+Function body:           def _run_erb_app47views47index47dodajnews46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "  ";  @news.errors.each do |attr,msg| ; @output_buffer.concat "\n  <table id=\"blad\">\n  <tr><td> \n  "
+
+
+; @output_buffer.concat((  "#{attr} - #{msg}" ).to_s); @output_buffer.concat "\n  </td></tr>\n  </table>\n  "
+
+
+;  end ; @output_buffer.concat "\n  \n  \n"
+
+
+;  form_for(@news, :url => {:controller => :news, :action => :dodajnews, :id => @news}) do |f| ; @output_buffer.concat "\n  <div>\n  "
+
+; @output_buffer.concat(( f.label :tytul: ).to_s); @output_buffer.concat "</div>\n\t<div>\n  "
+
+; @output_buffer.concat(( f.text_field :tytul ).to_s); @output_buffer.concat "</div>\n\t<div>\n  "
+
+; @output_buffer.concat(( f.label :tresc: ).to_s); @output_buffer.concat "</div>\n\t<div>\n  "
+
+; @output_buffer.concat(( f.text_area :tresc ).to_s); @output_buffer.concat "</div>\n\t<div>\n<div>\n"
+
+
+; @output_buffer.concat(( f.submit 'Dodaj').to_s); @output_buffer.concat "\n</div>\n"
+
+;  end ; @output_buffer.concat "\n<p>\n"
+
+; @output_buffer.concat(( link_to "Powrot", :action => "news" ).to_s); @output_buffer.concat "\n</p>"
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/dodajnews.html.erb:12: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.label :tytul: ).to_s); @output_buffer.conc...
+...                               ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/dodajnews.html.erb:16: syntax error, unexpected ':', expecting ')'
+...buffer.concat(( f.label :tresc: ).to_s); @output_buffer.conc...
+...                               ^) on line #12 of app/views/index/dodajnews.html.erb:
+9:   
+10: <% form_for(@news, :url => {:controller => :news, :action => :dodajnews, :id => @news}) do |f| %>
+11:   <div>
+12:   <%= f.label :tytul: %></div>
+13: 	<div>
+14:   <%= f.text_field :tytul %></div>
+15: 	<div>
+
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (781.2ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:16:36) [GET]
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 62ms (View: 16, DB: 16) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:16:41) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asddasdasddasdasdasdasdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:18:29) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asddasdasddasdasdasdasdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:18:33) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asddasdasddasdasdasdasdasd"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:18:38) [GET]
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:18:40) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"aaaaaaa", "tresc"=>"asddasdasddasdasdasdasdasd"}, "commit"=>"Dodaj"}
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mNews Create (0.0ms)[0m   [0;1mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES(NULL, NULL, NULL, '2010-06-23 08:18:40', '2010-06-23 08:18:40')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 16ms (DB: 16) | 302 Found [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:18:40) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:18:46) [GET]
+  [4;36;1mNews Columns (31.2ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 31ms (View: 0, DB: 31) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:18:50) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asdasdas", "tresc"=>"asdasdasdasdasdasdasd"}, "commit"=>"Dodaj"}
+  [4;35;1mNews Columns (31.2ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNews Create (0.0ms)[0m   [0mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES(NULL, NULL, NULL, '2010-06-23 08:18:50', '2010-06-23 08:18:50')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 47ms (DB: 31) | 302 Found [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:18:50) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:19:59) [GET]
+  [4;35;1mNews Columns (31.2ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 297ms (View: 31, DB: 31) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#Dodaj (for 127.0.0.1 at 2010-06-23 10:20:03) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asdasda", "tresc"=>"asdasdasd"}, "commit"=>"Dodaj"}
+
+ActionController::UnknownAction (No action responded to Dodaj. Actions: biografia, desmoines, dodajnews, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#Dodaj (for 127.0.0.1 at 2010-06-23 10:20:28) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asdasda", "tresc"=>"asdasdasd"}, "commit"=>"Dodaj"}
+
+ActionController::UnknownAction (No action responded to Dodaj. Actions: biografia, desmoines, dodajnews, dyskografia, index, ksiegagosci, linki, news, and sklad):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:20:30) [GET]
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:20:32) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asdasda", "tresc"=>"asdasdasd"}, "commit"=>"Dodaj"}
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:20:35) [GET]
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:20:42) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"sadasdasd", "tresc"=>"asdasdasfgfdgfdgfd\r\n\r\nhgdfsdfsdfssdfsdfsdfsfsdfdfsdf"}, "commit"=>"Dodaj"}
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:21:26) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"sadasdasd", "tresc"=>"asdasdasfgfdgfdgfd\r\n\r\nhgdfsdfsdfssdfsdfsdfsfsdfdfsdf"}, "commit"=>"Dodaj"}
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:21:28) [GET]
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:21:33) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"yuytuytu", "tresc"=>"sadasdasdasd"}, "commit"=>"Dodaj"}
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNews Create (0.0ms)[0m   [0mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES(NULL, NULL, NULL, '2010-06-23 08:21:33', '2010-06-23 08:21:33')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 62ms (DB: 16) | 302 Found [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:21:33) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:22:05) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:24:05) [GET]
+  [4;35;1mNews Load (31.2ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (46.9ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 94ms (View: 0, DB: 78) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:24:07) [GET]
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:24:22) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"Ruby", "tresc"=>"nooo moze ruszy\r\n"}, "commit"=>"Dodaj"}
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mNews Create (0.0ms)[0m   [0;1mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES(NULL, NULL, NULL, '2010-06-23 08:24:22', '2010-06-23 08:24:22')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 47ms (DB: 16) | 302 Found [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:24:22) [GET]
+  [4;36;1mNews Load (15.6ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:25:42) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:25:44) [GET]
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+
+ActionView::TemplateError (undefined method `news_path' for #<ActionView::Base:0x2b294a0>) on line #10 of app/views/index/dodajnews.html.erb:
+7:   <% end %>
+8:   
+9:   
+10: <% form_for(@news) do |f| %> 
+11:   <div>
+12:   <%= f.label :tytul %></div>
+13: 	<div>
+
+    app/views/index/dodajnews.html.erb:10
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (1421.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:25:45) [GET]
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+
+ActionView::TemplateError (undefined method `news_path' for #<ActionView::Base:0x3ed94c0>) on line #10 of app/views/index/dodajnews.html.erb:
+7:   <% end %>
+8:   
+9:   
+10: <% form_for(@news) do |f| %> 
+11:   <div>
+12:   <%= f.label :tytul %></div>
+13: 	<div>
+
+    app/views/index/dodajnews.html.erb:10
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (203.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:26:37) [GET]
+  [4;36;1mNews Columns (31.2ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 62ms (View: 31, DB: 31) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:26:42) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asd", "tresc"=>"assssssssssssssssssssssssss"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:28:05) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asd", "tresc"=>"assssssssssssssssssssssssss"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:28:11) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asd", "tresc"=>"assssssssssssssssssssssssss"}, "commit"=>"Dodaj"}
+
+ActionController::RoutingError (No route matches "/news/dodajnews" with {:method=>:post}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:28:18) [GET]
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 906ms (View: 844, DB: 0) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:28:21) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asd", "tresc"=>"assssssssssssssssssssssssss"}, "commit"=>"Dodaj"}
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mNews Create (0.0ms)[0m   [0;1mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES(NULL, NULL, NULL, '2010-06-23 08:28:21', '2010-06-23 08:28:21')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 125ms (DB: 16) | 302 Found [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:28:21) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:29:43) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:29:45) [GET]
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 47ms (View: 31, DB: 16) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:29:49) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"as", "tresc"=>"asd"}, "commit"=>"Dodaj"}
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNews Create (0.0ms)[0m   [0mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES(NULL, NULL, NULL, '2010-06-23 08:29:49', '2010-06-23 08:29:49')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 31ms (DB: 16) | 302 Found [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:29:49) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:30:46) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 109ms (View: 62, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:30:48) [GET]
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:30:52) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"as", "tresc"=>"sdsdsd"}, "commit"=>"Dodaj"}
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mNews Create (0.0ms)[0m   [0;1mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES('as', 'sdsdsd', NULL, '2010-06-23 08:30:52', '2010-06-23 08:30:52')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 47ms (DB: 0) | 302 Found [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:30:52) [GET]
+  [4;36;1mNews Load (15.6ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:34:01) [GET]
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:34:05) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asdasd", "tresc"=>"asdasdasd"}, "commit"=>"Dodaj"}
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+
+NameError (undefined local variable or method `time' for #<IndexController:0x249eda0>):
+  app/controllers/index_controller.rb:11:in `dodajnews'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (218.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:36:32) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"asdasd", "tresc"=>"asdasdasd"}, "commit"=>"Dodaj"}
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mNews Create (15.6ms)[0m   [0;1mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES('asdasd', 'asdasdasd', '2010-06-23 10:36:32', '2010-06-23 08:36:32', '2010-06-23 08:36:32')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 62ms (DB: 16) | 302 Found [http://localhost/index/dodajnews]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:36:32) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;35;1mNews Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 16, DB: 16) | 200 OK [http://localhost/index/news]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:36:42) [GET]
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Rendering template within layouts/index
+Rendering index/dodajnews
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#dodajnews (for 127.0.0.1 at 2010-06-23 10:36:59) [POST]
+  Parameters: {"authenticity_token"=>"ExOfsLo5lQWUZ1fyyh0WMiDARQTCw4JOAxtURkQ5fic=", "news"=>{"tytul"=>"News z dat\xC4\x85", "tresc"=>"hehe"}, "commit"=>"Dodaj"}
+  [4;35;1mNews Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNews Create (0.0ms)[0m   [0mINSERT INTO `news` (`tytul`, `tresc`, `data`, `created_at`, `updated_at`) VALUES('News z datą', 'hehe', '2010-06-23 10:36:59', '2010-06-23 08:36:59', '2010-06-23 08:36:59')[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/index/news
+Completed in 31ms (DB: 16) | 302 Found [http://localhost/index/dodajnews]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:36:59) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://localhost/index/news]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:40:15) [GET]
+
+ActionController::RoutingError (No route matches "/users/show_all" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-23 10:40:19) [GET]
+Redirected to http://localhost:3000/index/news
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:40:19) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+
+ActionView::TemplateError (undefined method `reversed' for #<ActionView::Base:0x2a5c420>) on line #2 of app/views/index/news.html.erb:
+1: <h3>NEWS:</h3>
+2: <% for news in reversed @news %>
+3: <hr>
+4: <p>
+5: <b><%= news.tytul %></b> <br />
+
+    app/views/index/news.html.erb:2
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (859.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:41:03) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+
+ActionView::TemplateError (undefined method `reversed' for #<ActionView::Base:0x3e630a0>) on line #2 of app/views/index/news.html.erb:
+1: <h3>NEWS:</h3>
+2: <% for news in reversed(@news) %>
+3: <hr>
+4: <p>
+5: <b><%= news.tytul %></b> <br />
+
+    app/views/index/news.html.erb:2
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (234.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 10:41:06) [GET]
+
+ActionController::RoutingError (No route matches "/users/show_all" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-06-23 10:41:09) [GET]
+Redirected to http://localhost:3000/index/news
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:41:09) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+
+ActionView::TemplateError (undefined method `reversed' for #<ActionView::Base:0x271b4e0>) on line #2 of app/views/index/news.html.erb:
+1: <h3>NEWS:</h3>
+2: <% for news in reversed(@news) %>
+3: <hr>
+4: <p>
+5: <b><%= news.tytul %></b> <br />
+
+    app/views/index/news.html.erb:2
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (1187.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:43:15) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+ERROR: compiling _run_erb_app47views47index47news46html46erb RAISED C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:2: syntax error, unexpected tUMINUS_NUM, expecting tCONSTANT
+;  for news in @news [::-1] ; @output_buffer.concat "\n<hr>\n<p>\n<b>"
+                         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:17: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _run_erb_app47views47index47news46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h3>NEWS:</h3>\n"
+;  for news in @news [::-1] ; @output_buffer.concat "\n<hr>\n<p>\n<b>"
+
+
+; @output_buffer.concat(( news.tytul ).to_s); @output_buffer.concat "</b> <br />\n"
+; @output_buffer.concat(( news.data ).to_s); @output_buffer.concat " <br />\n<b>tresc:</b><br />\n"
+
+; @output_buffer.concat(( news.tresc ).to_s); @output_buffer.concat "\n</p>\n"
+
+;  end ; @output_buffer.concat "\n<hr>\n<p>\n"
+
+
+; @output_buffer.concat(( link_to "Dodaj news", :action => "dodajnews" ).to_s); @output_buffer.concat "\n</p>\n\n"
+
+
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:2: syntax error, unexpected tUMINUS_NUM, expecting tCONSTANT
+;  for news in @news [::-1] ; @output_buffer.concat "\n<hr>\n<p>\n<b>"
+                         ^
+C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:17: syntax error, unexpected keyword_ensure, expecting $end) on line #2 of app/views/index/news.html.erb:
+1: <h3>NEWS:</h3>
+2: <% for news in @news [::-1] %>
+3: <hr>
+4: <p>
+5: <b><%= news.tytul %></b> <br />
+
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (171.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:46:46) [GET]
+  [4;36;1mNews Load (0.0ms)[0m   [0;1mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+ERROR: compiling _run_erb_app47views47index47news46html46erb RAISED C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:2: formal argument cannot be an instance variable
+;  news.reverse_each do |@news| ; @output_buffer.concat "\n...
+                              ^
+Function body:           def _run_erb_app47views47index47news46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h3>NEWS:</h3>\n"
+;  news.reverse_each do |@news| ; @output_buffer.concat "\n<hr>\n<p>\n<b>"
+
+
+; @output_buffer.concat(( news.tytul ).to_s); @output_buffer.concat "</b> <br />\n"
+; @output_buffer.concat(( news.data ).to_s); @output_buffer.concat " <br />\n<b>tresc:</b><br />\n"
+
+; @output_buffer.concat(( news.tresc ).to_s); @output_buffer.concat "\n</p>\n"
+
+;  end ; @output_buffer.concat "\n<hr>\n<p>\n"
+
+
+; @output_buffer.concat(( link_to "Dodaj news", :action => "dodajnews" ).to_s); @output_buffer.concat "\n</p>\n\n"
+
+
+; @output_buffer.force_encoding(__ENCODING__)
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+C:/Ruby19/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby19/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (C:/Documents and Settings/Marek/Moje dokumenty/stonesour/app/views/index/news.html.erb:2: formal argument cannot be an instance variable
+;  news.reverse_each do |@news| ; @output_buffer.concat "\n...
+                              ^) on line #2 of app/views/index/news.html.erb:
+1: <h3>NEWS:</h3>
+2: <% news.reverse_each do |@news| %>
+3: <hr>
+4: <p>
+5: <b><%= news.tytul %></b> <br />
+
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (2968.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:47:13) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+
+ActionView::TemplateError (undefined local variable or method `news' for #<ActionView::Base:0x3e494a0>) on line #2 of app/views/index/news.html.erb:
+1: <h3>NEWS:</h3>
+2: <% news.reverse_each do |news| %>
+3: <hr>
+4: <p>
+5: <b><%= news.tytul %></b> <br />
+
+    app/views/index/news.html.erb:2
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (156.2ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:47:16) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+
+ActionView::TemplateError (undefined local variable or method `news' for #<ActionView::Base:0x29d3620>) on line #2 of app/views/index/news.html.erb:
+1: <h3>NEWS:</h3>
+2: <% news.reverse_each do |news| %>
+3: <hr>
+4: <p>
+5: <b><%= news.tytul %></b> <br />
+
+    app/views/index/news.html.erb:2
+    <internal:prelude>:8:in `synchronize'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (1953.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing IndexController#news (for 127.0.0.1 at 2010-06-23 10:47:32) [GET]
+  [4;35;1mNews Load (0.0ms)[0m   [0mSELECT * FROM `news` [0m
+Rendering template within layouts/index
+Rendering index/news
+  [4;36;1mNews Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/index/news]
